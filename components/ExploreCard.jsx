@@ -9,7 +9,7 @@ const ExploreCard = ({ id, imgUrl, title, description, skills, github, link, ind
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
       active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
-    } flex items-center justify-center min-w-[170px] h-[800px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer hover:shadow-2xl`}
+    } flex items-center justify-center min-w-[170px] h-[560px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer hover:shadow-2xl`}
     onClick={() => handleClick(id)}
   >
     <img
@@ -22,7 +22,7 @@ const ExploreCard = ({ id, imgUrl, title, description, skills, github, link, ind
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 p-3 md:p-8 flex justify-start w-full  h-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+      <div className="absolute bottom-0 p-3 md:p-8 flex justify-start w-full h-full lg:h-auto flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
         <div
           className={`rounded-[24px] glassmorphism mb-[16px] flex items-start gap-12 text-slate-300`}
         > 
