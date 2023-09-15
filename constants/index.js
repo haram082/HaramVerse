@@ -25,6 +25,14 @@ export const projects = [
     link: "",
     description: "Designed and built a recursive, backtracking algorithm to solve 9x9 Sudoku puzzles utilizing constraint propagation and depth-first search techniques with optimized caching.",
     skills: ["Python", "Informed Search", "BackTracking"],
+  },{
+    id: 'world-5',
+    imgUrl: '/demo.png',
+    title: 'Hang-Cecil',
+    github: "https://github.com/haram082/hang_cecil",
+    link: "",
+    description: "Built interactive hang-man game using Pomona based words and Cecil the Sagehen as the hangman",
+    skills: ["Python", "Pygame"]
   },
   {
     id: 'world-4',
@@ -34,7 +42,7 @@ export const projects = [
     link: "",
     description: "STILL IN PROGRESS",
     skills: ["Flutter", "Dart", "Firebase", "FireStore (NoSQL)"]
-  },
+  }
 ];
 
 
