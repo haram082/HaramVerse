@@ -48,6 +48,13 @@ export const projects = [
 
 export const insights = [
   {
+    imgUrl: '/hack.jpg',
+    title: '5C Hack Front-End Developer',
+    subtitle:
+    'Maintained website functionality and UI/UX design by continuously integrating new features and optimizing page performance by over 50% through programming timely software and content updates through Javascript, HTML, CSS, and AWS hosting to be deployed for hundreds of students'
+    ,
+  },
+  {
     imgUrl: '/pomona.jpg',
     title: 'Pomona College ITS Service Desk Consultant-Employee ',
     subtitle:
