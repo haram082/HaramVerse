@@ -80,12 +80,6 @@ export const insights = [
     'Monitored and safeguarded the safety of students and faculty in the college pool Proactively identified and addressed safety hazards to prevent incidents Administers first aid in the event of injury, rescues swimmers in distress or danger of drowning, and administers CPR and/or artificial respiration, if necessary'
     ,
   },
-  {
-    imgUrl: '/upenn.png',
-    title: 'SD4x: Programming for the Web with JavaScript From UPenn — Student	',
-    subtitle:
-        "Mastered manipulating Javascript DOM, handling promises & callbacks, and structuring with HTML/CSS ",
-  },
 ];
 
 
