@@ -42,7 +42,7 @@ const Intro = () => (
         className={`flex-1 ${styles.flexCenter} rounded-2xl`}
       >
         <img
-          src="/me.jpeg"
+          src="/haram.jpg"
           alt="Haram Yoon"
           className="w-[90%] h-[90%] object-contain "
         />

@@ -25,17 +25,18 @@ export const projects = [
     link: "",
     description: "Designed and built a recursive, backtracking algorithm to solve 9x9 Sudoku puzzles utilizing constraint propagation and depth-first search techniques with optimized caching.",
     skills: ["Python", "Informed Search", "BackTracking"],
-  },{
-    id: 'world-5',
-    imgUrl: '/demo.png',
-    title: 'Hang-Cecil',
-    github: "https://github.com/haram082/hang_cecil",
-    link: "",
-    description: "Built interactive hang-man game using Pomona based words and Cecil the Sagehen as the hangman",
-    skills: ["Python", "Pygame"]
   },
   {
     id: 'world-4',
+    imgUrl: '/pai.jpg',
+    title: 'p-Reset',
+    github: "https://github.com/v-song/p-reset",
+    link: "",
+    description: "I am part of Pomona AI Club's p-reset project, building a full-stack AI self-care app using React and Flask. It features journaling, habit tracking, Google Calendar integration, SQL databases, NLP, ML, and Docker integration for personalized recommendations and scheduling optimization.",
+    skills: ["Tailwind", "Nextjs", "Python", "SQLAlchemy", "PostgreSQL", "Flask", "Docker", "RNNs", "Sentiment Analysis", "LDA", "Clustering", "Google Calendar API"]
+  },
+  {
+    id: 'world-5',
     imgUrl: '/flutter.png',
     title: 'AccountaBuddy Flutter App',
     github: "",
@@ -79,7 +80,7 @@ export const insights = [
     subtitle:
     'Monitored and safeguarded the safety of students and faculty in the college pool Proactively identified and addressed safety hazards to prevent incidents Administers first aid in the event of injury, rescues swimmers in distress or danger of drowning, and administers CPR and/or artificial respiration, if necessary'
     ,
-  },
+  },  
 ];
 
 
