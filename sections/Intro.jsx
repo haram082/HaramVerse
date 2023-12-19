@@ -28,11 +28,11 @@ const Intro = () => (
       >
         <div className="" />
         <p className="mt-[24px] font-normal sm:text-2xl text-lg sm:leading-[45.6px] leading-[39.6px] text-white">
-          <span className=' font-semibold'>Haram is currently a sophomore looking to be a prospective B.A. Computer Science & Cognitive Science major at Pomona College, with math and data science minors.</span>
+          <span className=' font-semibold'>Haram is currently a FGLI Questbridge Scholar looking to be a prospective Computer Science & Cognitive Science double major with a math minor at Pomona College. He is currently looking for an internship for summer 2024.</span>
           <br />
-          <span className='text-slate-500 text-base'>
+          <span className='text-indigo-900 text-base'>
           Pomona College |  GPA - 3.7/4.0  |  Expected Grad: May 2026	</span>
-          <Link href="/resume.pdf" target="_blank" className='text-lg uppercase hover:underline cursor-pointer text-green-400 ' download>Download his resume</Link>
+          <Link href="/resume.pdf" target="_blank" className='text-lg uppercase hover:underline cursor-pointer text-green-400' download>Download his resume ‼️‼️</Link>
         </p>
       </motion.div>
       </motion.div>

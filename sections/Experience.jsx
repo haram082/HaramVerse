@@ -8,7 +8,7 @@ import { staggerContainer } from '../utils/motion';
 import { InsightCard, TitleText, TypingText } from '../components';
 
 const Experience = () => (
-  <section className={`${styles.paddings} relative z-10 mb-20`}>
+  <section className={`${styles.paddings} relative z-10 `}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -17,7 +17,7 @@ const Experience = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText title="| Experience" textStyles="text-center" />
-      <TitleText title={<>Experiences/ <br className='md:hidden'/></>} textStyles="text-center" />
+      <TitleText title={<>Experiences<br className='md:hidden'/></>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((item, index) => (
           <InsightCard key={`insight-${index}`} {...item} index={index + 1} />

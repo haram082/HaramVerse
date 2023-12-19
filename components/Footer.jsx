@@ -21,7 +21,7 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="mb-8 h-[2px] bg-white opacity-10" />
 
-        <div className="grid grid-cols-3 flex-wrap ">
+        <div className="grid grid-cols-2 md:grid-cols-3 flex-wrap ">
           <h1></h1>
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 Haram Yoon. All rights reserved.
