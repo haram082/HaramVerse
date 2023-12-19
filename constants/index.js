@@ -10,6 +10,15 @@ export const projects = [
   },
   {
     id: 'world-2',
+    imgUrl: '/p-rest.png',
+    title: 'p-Reset',
+    github: "https://github.com/v-song/p-reset",
+    link: "",
+    description: "I am part of Pomona AI Club's p-reset project, building a full-stack AI self-care app using React and Flask. It features journaling, habit tracking, Google Calendar integration, SQL databases, NLP, ML, and Docker integration for personalized recommendations and scheduling optimization.",
+    skills: ["Tailwind", "Nextjs", "Python", "SQLAlchemy", "PostgreSQL", "Flask", "Docker", "RNNs", "Sentiment Analysis", "LDA", "Clustering", "Google Calendar API"]
+  },
+  {
+    id: 'world-3',
     imgUrl: '/shop.png',
     title: 'Fullstack Ecommerce Platform',
     github: "https://github.com/haram082/Ecommerce-site",
@@ -18,22 +27,13 @@ export const projects = [
     skills: ["Html", "CSS", "React", "React-DOM", "Redux", "Firebase", "FireStore (NoSQL)", "Stripe API", "Node", "Express"],
   },
   {
-    id: 'world-3',
+    id: 'world-4',
     imgUrl: '/sudoku.png',
     title: 'Sudoku AI',
     github: "https://github.com/haram082/sudoku_solver",
     link: "",
     description: "Designed and built a recursive, backtracking algorithm to solve 9x9 Sudoku puzzles utilizing constraint propagation and depth-first search techniques with optimized caching.",
     skills: ["Python", "Informed Search", "BackTracking"],
-  },
-  {
-    id: 'world-4',
-    imgUrl: '/pai.jpg',
-    title: 'p-Reset',
-    github: "https://github.com/v-song/p-reset",
-    link: "",
-    description: "I am part of Pomona AI Club's p-reset project, building a full-stack AI self-care app using React and Flask. It features journaling, habit tracking, Google Calendar integration, SQL databases, NLP, ML, and Docker integration for personalized recommendations and scheduling optimization.",
-    skills: ["Tailwind", "Nextjs", "Python", "SQLAlchemy", "PostgreSQL", "Flask", "Docker", "RNNs", "Sentiment Analysis", "LDA", "Clustering", "Google Calendar API"]
   },
   {
     id: 'world-5',
@@ -49,37 +49,58 @@ export const projects = [
 
 export const insights = [
   {
-    imgUrl: '/hack.jpg',
-    title: '5C Hack Front-End Developer',
+    imgUrl: '/aspc.png',
+    title: 'Software Developer @ Associated Students of Pomona College',
+    date: 'Dec 2023 - Present',
     subtitle:
-    'Maintained website functionality and UI/UX design by continuously integrating new features and optimizing page performance by over 50% through programming timely software and content updates through Javascript, HTML, CSS, and AWS hosting to be deployed for hundreds of students'
+    'Architected and iteratively enhanced the ASPC platform utilizing React and Ruby on Rails to expand core functionalities, conduct seamless database updates within a robust data-driven ecosystem, and provide critical services to over 1,500 students. Implemented the seamless integration of p-Recs, an AI course recommendation model developed with Python and Docker, boosting student course satisfaction by 50% and nearly doubled student engagement with the platform'
+    ,
+  },
+  {
+    imgUrl: '/hack.jpg',
+    title: ' Front-End Developer @ 5C Hack',
+    date: 'Sept 2023 - Present', 
+    subtitle:
+    'Maintained website functionality and optimized UI/UX design by continuously integrating new features and updating relevant information on a AWS hosted website for hundreds of students. Engineerd a new React web app to replace the existing one, improving quality through reusable compoments, code splitting, and Html & CSS styling, which improved website performance by over 50% and created a more user-friendly experience.'
+    ,
+  },
+  {
+    imgUrl: '/pai.jpg',
+    title: 'Software Developer @ P-AI ',
+    date: 'Sept 2023 - Dec 2023',
+    subtitle:
+    'Worked within the Software Development Team for p-Reset: Personalized Self-Care Web App to engineer a full-stack, AI-powered personalized self-care app with Nextjs and Flask that allows journaling, habit tracking, and Google Calendar API integration through a Postgres SQL database that incorporates NLP techniques and ML algorithms to generate customized recommendations and optimize scheduling around self-care tasks and healthy habits.'
+    ,
+  },
+  {
+    imgUrl: '/github.png',
+    title: 'All in For Students cohert Member @ Github ',
+    date: 'Oct 2023 - Present',
+    subtitle:
+    'All In for Students trains the next generation of innovators and tech pioneers from underestimated backgrounds, connecting them to open source learning, individualized upskilling, meaningful open source experience, and a supportive community of peers and mentors invested in their success.'
     ,
   },
   {
     imgUrl: '/pomona.jpg',
-    title: 'Pomona College ITS Service Desk Consultant-Employee ',
+    title: 'ITS Service Desk Consultant @ Pomona College ',
+    date: 'Sept 2022 - Prsent',
     subtitle:
-    'Represented the college’s first line of help regarding information technology issues Resolved dozens of software issues each day, and contributed to improving the hardware supply and loan system efficiency by 50% through an enhanced ticket system Orchestrated seamless integration of Pomonas ITS systems by collaborating with cross-functional teams, resulting in a 40% increase in system uptime'
+    'Represented the college’s first line of help regarding information technology issues Resolved dozens of software issues each day, and contributed to improving the hardware supply and loan system efficiency by 50% through an enhanced ticket system. Orchestrated seamless integration of Pomonas ITS systems by collaborating with cross-functional teams, resulting in a 40% increase in system uptime.'
     ,
   },
   {
     imgUrl: '/jpmorgan.jpg',
-    title: 'JPMorgan Software Engineering Virtual Experience Program — Intern',
+    title: 'JPMorgan Software Engineering Virtual Experience Program ',
+    date: 'Oct 2022 ',
     subtitle:
         'Expanded software engineering skills through data feed analysis interfaces, JMPC frameworks, and perspective data visualization software',
   },
   {
     imgUrl: '/lyft.png',
-    title: 'Lyft Back-End Engineering Virtual Experience Program — Intern 	',
+    title: 'Lyft Back-End Engineering Virtual Experience Program',
+    date: 'August 2023 ',
     subtitle:
         'Accumulated valuable insight in designing software architecture, refactoring broken systems, developing unit tests, and creating functionality through test-driven development',
-  },
-  {
-    imgUrl: '/lifeguard.jpg',
-    title: 'Pomona College Lifeguard-Employee ',
-    subtitle:
-    'Monitored and safeguarded the safety of students and faculty in the college pool Proactively identified and addressed safety hazards to prevent incidents Administers first aid in the event of injury, rescues swimmers in distress or danger of drowning, and administers CPR and/or artificial respiration, if necessary'
-    ,
   },  
 ];
 

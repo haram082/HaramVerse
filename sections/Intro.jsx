@@ -8,7 +8,7 @@ import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 import Link from 'next/link';
 
 const Intro = () => (
-  <section className={`${styles.paddings} relative z-10 `}>
+  <section className={`${styles.paddings} relative z-10 mt-5`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -28,7 +28,7 @@ const Intro = () => (
       >
         <div className="" />
         <p className="mt-[24px] font-normal sm:text-2xl text-lg sm:leading-[45.6px] leading-[39.6px] text-white">
-          <span className=' font-semibold'>Haram is currently a sophomore looking to be a prospective B.A. Computer Science & Cognitive Science major at Pomona College, with math and data science minors</span>
+          <span className=' font-semibold'>Haram is currently a sophomore looking to be a prospective B.A. Computer Science & Cognitive Science major at Pomona College, with math and data science minors.</span>
           <br />
           <span className='text-slate-500 text-base'>
           Pomona College |  GPA - 3.7/4.0  |  Expected Grad: May 2026	</span>
@@ -38,13 +38,13 @@ const Intro = () => (
       </motion.div>
 
       <motion.div
-        variants={planetVariants('right')}
+        variants={planetVariants('right')}  
         className={`flex-1 ${styles.flexCenter} rounded-2xl`}
       >
         <img
           src="/haram.jpg"
           alt="Haram Yoon"
-          className="w-[90%] h-[90%] object-contain "
+          className="w-[90%] h-[90%] object-contain shadow-xl"
         />
       </motion.div>
     </motion.div>
