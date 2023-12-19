@@ -1,9 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
 import { fadeIn } from '../utils/motion';
-import Link from 'next/link';
 
 const InsightCard = ({ imgUrl, title, date, subtitle, location, index }) => (
   <motion.div
@@ -13,7 +11,7 @@ const InsightCard = ({ imgUrl, title, date, subtitle, location, index }) => (
     <img
       src={imgUrl}
       alt="planet-01"
-      className="w-[200px] h-[200px] rounded-[32px] object-cover"
+      className="w-[100px] h-[100px] lg:w-[200px] lg:h-[200px] rounded-[32px] object-cover"
     />
     <div className="w-full flex justify-between items-center">
       <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">

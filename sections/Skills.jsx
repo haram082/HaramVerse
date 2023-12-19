@@ -25,13 +25,13 @@ const Skills = () => {
             <div className='flex  flex-col  items-center md:items-stretch md:flex-row justify-evenly gap-4'>
             <div className='flex flex-col border p-4 rounded-lg w-[200px] justify-center hover:bg-red-600'>
                 <span className='font-bold text-lg underline'>Languages</span>
-                <span className='text-sm'>Python, Java, SQL, HTML, CSS, Tailwind, Javascript, Typescript, R, Dart</span>
+                <span className='text-sm'>Python, Java, SQL, HTML, CSS, Javascript, Typescript, R, Dart</span>
               </div>
               <div className='flex flex-col border p-4 rounded-lg w-[240px] gap-2 justify-center hover:bg-yellow-600'>
                 <span className='font-bold text-lg underline'>Front-End Frameworks</span>
                 <span className='text-sm'>Tailwind, Bootstrap, React, Nextjs, Redux, Flutter</span>
                 <span className='font-bold text-lg underline'>Back-end Frameworks</span>
-                <span className='text-sm'>Express, Flask, Next.js</span>
+                <span className='text-sm'>Express, Nodejs, Flask, Next.js</span>
               </div>
               <div className='flex flex-col border p-4 rounded-lg w-[220px] gap-2 justify-center hover:bg-green-600'>
                 <span className="font-bold text-lg underline">Databases/ORMs</span>

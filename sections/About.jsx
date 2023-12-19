@@ -20,7 +20,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[20px] text-[20px] text-start text-secondary-white"
+        className="mt-[8px] text-start text-secondary-white"
       >
        Meet Haram Yoon, a spirited undergrad at Pomona College 🏫 and a first-generation, low-income student, fearlessly navigating the world of technology 💻. With an unyielding passion for breaking barriers in the tech industry, Haram is on a mission to create meaningful impact through software ⚙️. <br /><br />
 
