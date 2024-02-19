@@ -35,7 +35,7 @@ Currently on the lookout for internships in software engineering 👨‍💻, fu
         variants={fadeIn('up', 'tween', 0.3, 1)}
         src="/arrow-down.svg"
         alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
+        className="w-[18px] h-[28px] object-contain mt-[28px] animate-bounce"
       />
     </motion.div>
   </section>

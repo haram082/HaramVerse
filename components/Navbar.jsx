@@ -22,7 +22,7 @@ const Navbar = () => (
         <li className='hover:text-slate-500'>Experience</li>
         <li className='hover:text-slate-500'>Projects</li> */}
         <ul className="flex gap-4">
-              <Link href="/resume.pdf" target="_blank" download><IoIosPaper className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
+              <Link href="https://docs.google.com/document/d/1IjRqb5V3SerX_X4Unu3cCmL_-eAgPpOclni_SKaoffg/edit?usp=sharing" target="_blank" ><IoIosPaper className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
               <Link href="https://www.linkedin.com/in/haram-yoon-b359511b0/" target="_blank"><FaLinkedin className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
               <Link href="https://www.github.com/haram082" target="_blank"><FaGithub className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
               <Link href="https://calendly.com/haram_yoon/30min" target="_blank"><BsCalendarWeek className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>

@@ -49,13 +49,20 @@ export const projects = [
 
 export const insights = [
   {
+    imgUrl: '/fooclub.jpg',
+    title: 'Backend Developer Intern @ Foodclub',
+    date: 'Jan 2024 - Present',
+    location: 'Remote',
+    subtitle:
+    "Developed and maintained core RESTful APIs that powered the backend of the Priority Team's high-growth startup application. Leveraged Node.js, Express, and SQL to build scalable and reliable APIs that delivered low-latency responses to support seamless user experiences across web and mobile clients. Established and followed API development best practices including comprehensive unit and integration testing, monitoring, and DevOps protocols to ensure continual availability, performance, and stability enhancements. Collaborated cross-functionally in an agile, fast-paced startup environment composed of multiple scrum teams working in unison to rapidly deliver features towards startup. APIs and backened infrastructure were crafted to flexibly scale up and handle exponential growth trajectories."
+  },
+  {
     imgUrl: '/aspc.png',
     title: 'Software Developer @ Associated Students of Pomona College',
     date: 'Dec 2023 - Present',
     location: 'Claremont, CA',
     subtitle:
-    'Architected and iteratively enhanced the ASPC platform utilizing React and Ruby on Rails to expand core functionalities, conduct seamless database updates within a robust data-driven ecosystem, and provide critical services to over 1,500 students. Implemented the seamless integration of p-Recs, an AI course recommendation model developed with Python and Docker, boosting student course satisfaction by 50% and nearly doubled student engagement with the platform'
-    ,
+    'Architected and iteratively enhanced the ASPC platform utilizing React and Ruby on Rails to expand core functionalities, conduct seamless database updates within a robust data-driven ecosystem, and provide critical services to over 1,500 students. Expanded core functionalities within the admin dashboard to create CRUD functionality for static events, housing, and custom pages. Implemented the seamless integration of p-Recs, an AI course recommendation model developed with Python and Docker, boosting student course satisfaction by 50% and nearly doubled student engagement with the platform'
   },
   {
     imgUrl: '/hack.jpg',
@@ -93,14 +100,6 @@ export const insights = [
     'Represented the college’s first line of help regarding information technology issues Resolved dozens of software issues each day, and contributed to improving the hardware supply and loan system efficiency by 50% through an enhanced ticket system. Orchestrated seamless integration of Pomonas ITS systems by collaborating with cross-functional teams, resulting in a 40% increase in system uptime.'
     ,
   },
-  {
-    imgUrl: '/codepath.png',
-    title: 'Intermediate Cybersecurity Course @ CodePath',
-    date: 'Start Febuary 2024 ',
-    location: 'Remote',
-    subtitle:
-        'With a focus on web applications security, students will learn to think like a hacker and exploit vulnerabilities, while also exploring how to build offensive capabilities into applications. Students will gain broad foundational knowledge of cybersecurity concepts while also applying these concepts with fun simulations replicating real-world cyber threats.',
-  },  
   {
     imgUrl: '/lyft.png',
     title: 'Back-End Engineering Virtual Experience Program @ Lyft',

@@ -32,7 +32,7 @@ const Intro = () => (
           <br />
           <span className='text-indigo-900 text-base'>
           Pomona College |  GPA - 3.7/4.0  |  Expected Grad: May 2026	</span>
-          <Link href="/resume.pdf" target="_blank" className='text-lg uppercase hover:underline cursor-pointer text-green-400' download>Download his resume ‼️‼️</Link>
+          <Link href="https://docs.google.com/document/d/1IjRqb5V3SerX_X4Unu3cCmL_-eAgPpOclni_SKaoffg/edit?usp=sharing" target="_blank" className='text-lg uppercase hover:underline cursor-pointer text-green-400'>Check out his resume ‼️‼️</Link>
         </p>
       </motion.div>
       </motion.div>
