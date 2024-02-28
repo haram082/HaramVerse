@@ -37,12 +37,12 @@ export const projects = [
   },
   {
     id: 'world-5',
-    imgUrl: '/flutter.png',
-    title: 'AccountaBuddy Flutter App',
-    github: "",
+    imgUrl: '/Duo.png',
+    title: 'Duolingo Learning Model',
+    github: "https://github.com/haram082/bigdataproject",
     link: "",
-    description: "STILL IN PROGRESS",
-    skills: ["Flutter", "Dart", "Firebase", "FireStore (NoSQL)"]
+    description: "Settles and Meeder (2016) proposed a half-life regression machine learning model based on the forgetting curve to improve Duolingo engagement. We aim to use replicate the approaches described in this study to analyze a dataset of 13 million Duolingo student practice sessions, ultimately being able to predict how well a student will remember words over time. Thus, our model will have the ability to predict an individual's memory decay to optimize their frequency of practice.",
+    skills: ["Python", "Pandas", "Scikit-learn", "Machine Learning"],
   }
 ];
 
