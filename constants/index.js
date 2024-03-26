@@ -49,6 +49,15 @@ export const projects = [
 
 export const insights = [
   {
+    imgUrl: '/Snapchat.png',
+    title: 'Augmented Reality Extern @ Snap Inc',
+    date: 'Mar 2024 - Present',
+    location: 'Remote',
+    subtitle:
+    "Developed personalized AR experiences revolving around increasing NCAA March Madness engagement using Snap's Lens Studio. Mastered digital storytelling & AR design principles for creating engaging content to cater to millions of Snapchat users."
+    
+  },
+  {
     imgUrl: '/fooclub.jpg',
     title: 'Backend Developer Intern @ Foodclub',
     date: 'Jan 2024 - Present',
@@ -108,14 +117,6 @@ export const insights = [
     subtitle:
         'Accumulated valuable insight in designing software architecture, refactoring broken systems, developing unit tests, and creating functionality through test-driven development',
   }, 
-  {
-    imgUrl: '/jpmorgan.jpg',
-    title: 'Software Engineering Virtual Experience Program @ JPMorgan Chase & Co. ',
-    date: 'Oct 2022 ',
-    location: 'Remote',
-    subtitle:
-        'Expanded software engineering skills through data feed analysis interfaces, JMPC frameworks, and perspective data visualization software',
-  },
 ];
 
 
