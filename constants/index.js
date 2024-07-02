@@ -27,15 +27,6 @@ export const projects = [
     skills: ["Html", "CSS", "React", "React-DOM", "Redux", "Firebase", "FireStore (NoSQL)", "Stripe API", "Node", "Express"],
   },
   {
-    id: 'world-4',
-    imgUrl: '/sudoku.png',
-    title: 'Sudoku AI',
-    github: "https://github.com/haram082/sudoku_solver",
-    link: "",
-    description: "Designed and built a recursive, backtracking algorithm to solve 9x9 Sudoku puzzles utilizing constraint propagation and depth-first search techniques with optimized caching.",
-    skills: ["Python", "Informed Search", "BackTracking"],
-  },
-  {
     id: 'world-5',
     imgUrl: '/Duo.png',
     title: 'Duolingo Learning Model',
@@ -43,15 +34,32 @@ export const projects = [
     link: "",
     description: "Settles and Meeder (2016) proposed a half-life regression machine learning model based on the forgetting curve to improve Duolingo engagement. We aim to use replicate the approaches described in this study to analyze a dataset of 13 million Duolingo student practice sessions, ultimately being able to predict how well a student will remember words over time. Thus, our model will have the ability to predict an individual's memory decay to optimize their frequency of practice.",
     skills: ["Python", "Pandas", "Scikit-learn", "Machine Learning"],
-  }
+  },
+  {
+    id: 'world-6',
+    imgUrl: '/spotify.jpg',
+    title: 'GrooveGauge',
+    github: "https://github.com/haram082/GrooveGauge-",
+    link: "",
+    description: "Project aims to investigate the factors that influence the danceability of popular Spotify songs from 2000 to 2019. Trained an ML model achieving 0.85 R² in predicting danceability through advanced regression techniques in R",
+    skills: ["R", "Linear Models", "Machine Learning"],
+  },
 ];
 
 
 export const insights = [
   {
+    imgUrl: '/pomona.jpg',
+    title: 'Research Intern @ Pomona College HCI Lab',
+    date: 'May 2024 - Aug 2024',
+    location: 'Claremont, CA',
+    subtitle:
+        'Assisting research on the effect of shared gaze on collaboration by developing, maintaining, and investigating eye-tracking scripts using Nodejs and Express, creating effective experimental designs, and facilitating accurate data collection and analysis within Firebase',
+  }, 
+  {
     imgUrl: '/Snapchat.png',
     title: 'Augmented Reality Extern @ Snap Inc',
-    date: 'Mar 2024 - Present',
+    date: 'Mar 2024 - Apr 2024',
     location: 'Remote',
     subtitle:
     "Developed personalized AR experiences revolving around increasing NCAA March Madness engagement using Snap's Lens Studio. Mastered digital storytelling & AR design principles for creating engaging content to cater to millions of Snapchat users."
@@ -60,7 +68,7 @@ export const insights = [
   {
     imgUrl: '/fooclub.jpg',
     title: 'Backend Developer Intern @ Foodclub',
-    date: 'Jan 2024 - Present',
+    date: 'Jan 2024 - May 2024',
     location: 'Remote',
     subtitle:
     "Developed and maintained core RESTful APIs that powered the backend of the Priority Team's high-growth startup application. Leveraged Node.js, Express, and SQL to build scalable and reliable APIs that delivered low-latency responses to support seamless user experiences across web and mobile clients. Established and followed API development best practices including comprehensive unit and integration testing, monitoring, and DevOps protocols to ensure continual availability, performance, and stability enhancements. Collaborated cross-functionally in an agile, fast-paced startup environment composed of multiple scrum teams working in unison to rapidly deliver features towards startup. APIs and backened infrastructure were crafted to flexibly scale up and handle exponential growth trajectories."
@@ -94,7 +102,7 @@ export const insights = [
   {
     imgUrl: '/github.png',
     title: 'All in For Students cohert Member @ Github ',
-    date: 'Oct 2023 - Present',
+    date: 'Oct 2023 - Mar 2024',
     location: 'Remote',
     subtitle:
     'All In for Students trains the next generation of innovators and tech pioneers from underestimated backgrounds, connecting them to open source learning, individualized upskilling, meaningful open source experience, and a supportive community of peers and mentors invested in their success.'
@@ -109,14 +117,6 @@ export const insights = [
     'Represented the college’s first line of help regarding information technology issues Resolved dozens of software issues each day, and contributed to improving the hardware supply and loan system efficiency by 50% through an enhanced ticket system. Orchestrated seamless integration of Pomonas ITS systems by collaborating with cross-functional teams, resulting in a 40% increase in system uptime.'
     ,
   },
-  {
-    imgUrl: '/lyft.png',
-    title: 'Back-End Engineering Virtual Experience Program @ Lyft',
-    date: 'August 2023 ',
-    location: 'Remote',
-    subtitle:
-        'Accumulated valuable insight in designing software architecture, refactoring broken systems, developing unit tests, and creating functionality through test-driven development',
-  }, 
 ];
 
 
