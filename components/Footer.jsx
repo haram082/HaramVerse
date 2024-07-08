@@ -28,7 +28,7 @@ const Footer = () => (
           </p>
 
           <div className="flex gap-4 justify-end text-slate-200">
-              <Link href="/resume" target="_blank"><IoIosPaper className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
+              <Link href="/resume.pdf" target="_blank"><IoIosPaper className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
               <Link href="https://www.linkedin.com/in/haram-yoon-b359511b0/" target="_blank"><FaLinkedin className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
               <Link href="https://www.github.com/haram082" target="_blank"><FaGithub className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
               <Link href="https://calendly.com/haram_yoon/30min" target="_blank"><BsCalendarWeek className="w-[24px] h-[24px]  cursor-pointer hover:text-slate-400"/></Link>
