@@ -28,7 +28,7 @@ const Intro = () => (
       >
         <div className="" />
         <p className="mt-[24px] font-normal sm:text-2xl text-lg sm:leading-[45.6px] leading-[39.6px] text-white">
-          <span className=' font-semibold'>Haram is currently a FGLI Questbridge Scholar looking to be a prospective Computer Science & Cognitive Science double major with a math minor at Pomona College. He is currently looking for an internship for summer 2024.</span>
+          <span className=' font-semibold'>Haram is currently a FGLI Questbridge Scholar studying Computer Science at Pomona College, passionate about creating user-centric and impact-driven software and products.</span>
           <br />
           <span className='text-indigo-900 text-base'>
           Pomona College |  GPA - 3.7/4.0  |  Expected Grad: May 2026	</span>
