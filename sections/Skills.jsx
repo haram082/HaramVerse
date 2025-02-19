@@ -63,10 +63,10 @@ const Skills = () => {
       skills: [
         { name: "Python", level: 5 },
         { name: "JavaScript", level: 5 },
-        { name: "TypeScript", level: 5 },
+        { name: "TypeScript", level: 4 },
         { name: "HTML/CSS", level: 5 },
         { name: "Java", level: 4 },
-        { name: "SQL", level: 4 },
+        { name: "SQL", level: 3 },
         { name: "R", level: 3 },
         { name: "Haskell", level: 2 }
       ]
@@ -86,8 +86,8 @@ const Skills = () => {
       skills: [
         { name: "Express", level: 5 },
         { name: "Nodejs", level: 5 },
-        { name: "Flask", level: 5 },
-        { name: "Nextjs", level: 5 },
+        { name: "Flask", level: 4 },
+        { name: "Nextjs", level: 3 },
         { name: "Ruby on Rails", level: 2}
       ]
     },
@@ -107,7 +107,7 @@ const Skills = () => {
       title: "Cloud Services",
       icon: <Cloud size={24} />,
       skills: [
-        { name: "Firebase", level: 4 },
+        { name: "Google Cloud (Firebase)", level: 4 },
         { name: "AWS (EC2, LightSail, S3, RDS)", level: 4 }
       ]
     },
