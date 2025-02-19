@@ -3,10 +3,146 @@ import React from 'react'
 import { TitleText, TypingText } from '../components';
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
+import {  staggerContainer, fadeIn } from '../utils/motion';
+import { ChevronRight, Code, Database, Cloud, Wrench, Brain, Globe, Terminal } from 'lucide-react';
+import { useState } from 'react';
+
+
+const SkillNode = ({ title, icon, skills, isDefaultExpanded = false }) => {
+  const [isExpanded, setIsExpanded] = useState(isDefaultExpanded);
+  
+  return (
+    <div className="mb-4">
+      <div 
+        className="flex items-center p-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg cursor-pointer hover:shadow-lg transition-all duration-300"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        <div className="mr-2 text-white">
+          {icon}
+        </div>
+        <div className="flex-grow">
+          <h3 className="text-white font-bold text-lg">{title}</h3>
+        </div>
+        <ChevronRight
+          className={`text-white transform transition-transform duration-200 ${
+            isExpanded ? 'rotate-90' : ''
+          }`}
+        />
+      </div>
+      
+      {isExpanded && (
+        <div className="ml-4 mt-2 space-y-2">
+          {skills.map((skill) => (
+            <div key={skill.name} className="flex items-center justify-between p-2 bg-white/10 rounded-lg hover:bg-white/20 transition-all duration-200">
+              <span className="text-white">{skill.name}</span>
+              <div className="flex">
+                {[...Array(5)].map((_, i) => (
+                  <svg
+                    key={i}
+                    className={`w-4 h-4 ${i < skill.level ? 'text-yellow-300' : 'text-gray-500'} fill-current`}
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
+                  </svg>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
 
 
 const Skills = () => {
+  const skills = {
+    languages: {
+      title: "Programming Languages",
+      icon: <Code size={24} />,
+      skills: [
+        { name: "Python", level: 5 },
+        { name: "JavaScript", level: 5 },
+        { name: "TypeScript", level: 5 },
+        { name: "HTML/CSS", level: 5 },
+        { name: "Java", level: 4 },
+        { name: "SQL", level: 4 },
+        { name: "R", level: 3 },
+        { name: "Haskell", level: 2 }
+      ]
+    },
+    frontend: {
+      title: "Front-End Frameworks",
+      icon: <Globe size={24} />,
+      skills: [
+        { name: "Tailwind", level: 5 },
+        { name: "React", level: 5 },
+        { name: "Nextjs", level: 5 }
+      ]
+    },
+    backend: {
+      title: "Back-End Frameworks",
+      icon: <Terminal size={24} />,
+      skills: [
+        { name: "Express", level: 5 },
+        { name: "Nodejs", level: 5 },
+        { name: "Flask", level: 5 },
+        { name: "Nextjs", level: 5 },
+        { name: "Ruby on Rails", level: 2}
+      ]
+    },
+    databases: {
+      title: "Databases/ORMs",
+      icon: <Database size={24} />,
+      skills: [
+        { name: "MongoDB", level: 4 },
+        { name: "Firestore", level: 4 },
+        { name: "PostgreSQL", level: 5 },
+        { name: "MySQL", level: 5 },
+        { name: "SQLAlchemy", level: 3},
+        { name: "Prisma", level: 3}
+      ]
+    },
+    cloud: {
+      title: "Cloud Services",
+      icon: <Cloud size={24} />,
+      skills: [
+        { name: "Firebase", level: 4 },
+        { name: "AWS (EC2, LightSail, S3, RDS)", level: 4 }
+      ]
+    },
+    api: {
+      title: "API Development",
+      icon: <Wrench size={24} />,
+      skills: [
+        { name: "REST", level: 5 },
+        { name: "GraphQL", level: 3 },
+        { name: "tRPC", level: 3 }
+      ]
+    },
+    datascience: {
+      title: "Data Science",
+      icon: <Brain size={24} />,
+      skills: [
+        { name: "Pandas", level: 4 },
+        { name: "Numpy", level: 4 },
+        { name: "Scikit-learn", level: 3 },
+        { name: "PyTorch", level: 2 },
+        { name: "Data Visualization", level: 3 }
+      ]
+    },
+    tools: {
+      title: "Developer Tools",
+      icon: <Terminal size={24} />,
+      skills: [
+        { name: "Git/GitHub", level: 5 },
+        { name: "Jupyter", level: 5 },
+        { name: "Visual Studio", level: 5 },
+        { name: "Docker", level: 3 }
+      ]
+    }
+  };
+
   return (
     <div className='px-10 text-white'>
       <motion.div
@@ -21,43 +157,17 @@ const Skills = () => {
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}
           className="flex-[0.5]  flex justify-end flex-col gradient-05 sm:p-8 p-4 relative">
-          <p className='text-center'>
-            <div className='flex  flex-col  items-center md:items-stretch md:flex-row justify-evenly gap-4'>
-            <div className='flex flex-col border p-4 rounded-lg w-[200px] justify-center hover:bg-red-600 '>
-                <span className='font-bold text-lg underline'>Languages</span>
-                <span className='text-sm'>Python, Java, SQL, HTML, CSS, Javascript, Typescript, R, SQL, Haskell</span>
-              </div>
-              <div className='flex flex-col border p-4 rounded-lg w-[240px] gap-2 justify-center hover:bg-yellow-600 '>
-                <span className='font-bold text-lg underline'>Front-End Frameworks</span>
-                <span className='text-sm'>Tailwind, Bootstrap, React, Nextjs</span>
-                <span className='font-bold text-lg underline'>Back-end Frameworks</span>
-                <span className='text-sm'>Express, Nodejs, Flask, Next.js, Ruby on Rails</span>
-              </div>
-              <div className='flex flex-col border p-4 rounded-lg w-[220px] gap-2 justify-center hover:bg-green-600'>
-                <span className="font-bold text-lg underline">Databases/ORMs</span>
-                <span className='text-sm'>MongoDB, Firestore, PostgresSQL, mySQL, SQLAlchemy, Prisma</span>
-                <span className='font-bold text-lg underline'>Cloud Services</span>
-                <span className='text-sm'>Firebase, AWS</span>
-                <span className='font-bold text-lg underline '>API Development</span>
-                <span className='text-sm'>REST, GraphQL, tRPC</span>
-              </div>
-              <div className='flex flex-col border p-4 rounded-lg w-[200px] justify-center hover:bg-blue-700 '>
-                <span className='font-bold text-lg underline'>Data Science</span>
-                <span className='text-sm'>Pandas, Numpy, Scikit-learn, PyTorch, Data Visualization</span>
-                <span className='font-bold text-lg underline'>Developer Tools</span>
-                <span className='text-sm'>Git/GitHub, Jupyter, Visual Studio, Docker</span>
-              </div>
-              <div className='flex flex-col border p-4 rounded-lg w-[260px] hover:bg-purple-700 justify-center'>
-                <span className='font-bold text-lg underline'>Favorite Tech Stacks:</span>
-                <ul>
-                  <li> - MERN(MongoDB, React, Nodejs, ExpressJs)</li>
-                  <li> - T3(Tailwind, Typescript, tRPC) w/ Nextjs and Prisma</li>
-                  <li> - Firebase w/ Nextjs</li>
-                  <li> - Flask & AWS w/ React</li>
-                </ul>
-              </div>
-            </div>
-          </p>
+          <div className="grid grid-cols-1 gap-4">
+        {Object.entries(skills).map(([key, category]) => (
+          <SkillNode
+            key={key}
+            title={category.title}
+            icon={category.icon}
+            skills={category.skills}
+            isDefaultExpanded={key === 'languages'}
+          />
+        ))}
+      </div>
         </motion.div>
       </motion.div>
     </div>
