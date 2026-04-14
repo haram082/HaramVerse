@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: 'robovision',
+    imgUrl: '/robo.png',
+    title: 'RoboVision',
+    github: "https://github.com/haram082/CS152_GazeEstimator.git",
+    link: "",
+    description: "Accessible eye-tracking web app using CNNs and Swin Transformer models achieving 95-96% accuracy across 6 gaze classifications, enabling hands-free robotic control without expensive hardware.",
+    skills: ["R", "Machine Learning", "CNNs", "Swin Transformer"],
+  },
+  {
     id: 'world-1',
     imgUrl: '/spotitweet.png',
     title: 'Spoti-tweet',
@@ -44,50 +53,78 @@ export const projects = [
     description: "Project aims to investigate the factors that influence the danceability of popular Spotify songs from 2000 to 2019. Trained an ML model achieving 0.85 R² in predicting danceability through advanced regression techniques in R",
     skills: ["R", "Linear Models", "Machine Learning"],
   },
+    {
+    id: '5chack',
+    imgUrl: '/hack.jpg',
+    title: '5C Hackathon',
+    github: "",
+    link: "https://www.5chackathon.com/",
+    description: "Led product strategy and development of a new React app serving 100s of students within 5C Hack, prioritizing features for a more modern & user-friendly experience, resulting in 50% increased website engagement and 30% boost in hackathon signups.",
+    skills: ["React", "Product Strategy", "UI/UX", "Data Analytics"],
+  },
+  {
+    id: 'pickup',
+    imgUrl: '/pickup.png',
+    title: 'P-ickup',
+    github: "https://github.com/p-ickup/frontend",
+    link: "http://p-ickup.com/",
+    description: "AI-powered rideshare application serving 100s of Pomona students. Built AWS infrastructure, Docker containerization, Google-Supabase auth integration, and questionnaire/match features within a team of 7.",
+    skills: ["Next.js", "Tailwind", "Supabase", "SQL", "AWS", "Docker"],
+  },
+  {
+    id: 'aspc',
+    imgUrl: '/aspc.png',
+    title: 'Pomona Students Platform',
+    github: "",
+    link: "",
+    description: "Led development of the Pomona Students Platform, serving over 1,500+ students. Used for voting, reviews, events, student government, and more. Spearheaded full platform migration from Ruby on Rails to Next.js, Express, Node.js, MongoDB, and AWS — delivering 50% reduction in response times and 200% surge in student engagement. ",
+    skills: ["Next.js", "Express", "Node.js", "MongoDB", "AWS", "SAML"],
+  }
 ];
+
 
 
 export const insights = [
   {
     imgUrl: '/meta.png',
-    title: 'Incoming Swe Intern @ Meta',
+    title: 'Software Engineer Intern @ Meta',
     date: 'May 2025 - Aug 2025',
     location: 'Menlo Park, CA',
     subtitle:
-        '',
+        'Engineered a PHP/Hack pipeline to automate daily audit workflows across 500+ E2E lineage flows, saving 8 hours of manual effort per 200 flows. Leveraged LLM integration to increase violation detection accuracy by 50% and reduce false positives by 80%. Built Audit Table page in React/TypeScript within Meta\'s Data Platform.',
   }, 
   {
     imgUrl: '/aspc.png',
-    title: 'Lead Software Developer @ Associated Students of Pomona College',
-    date: 'August 2024 - Present',
+    title: 'Lead Software Engineer @ Associated Students of Pomona College',
+    date: 'Nov 2023 – Present',
     location: 'Claremont, CA',
     subtitle:
-    'Orchestrating development and migration of a more secure and optimized platform using Nextjs, Express, Node, and MongoDB to enhance the user experience and streamline the platform’s functionality. Leading a team of 5 developers to ensure the timely delivery of features and enhancements, while also providing mentorship and guidance to junior developers to foster their growth and development.'
+    'Spearheaded full platform migration from Ruby on Rails to Next.js, Express, Node.js, MongoDB, and AWS — delivering 50% reduction in response times and 200% surge in student engagement serving 1,500+ students. Architected SAML security framework and led a team of 5 engineers.'
   },
   {
     imgUrl: '/pomona.jpg',
-    title: 'Research Intern @ Pomona College HCI Lab',
-    date: 'May 2024 - Aug 2024',
+    title: 'Undergraduate Research Intern @ Pomona College HCI Lab',
+    date: 'May 2024 – Aug 2024',
     location: 'Claremont, CA',
     subtitle:
-        'Engineered and maintained a 144-trial visual search application using Express/Node.js, Socket.io, and Tobii eye-tracking to investigate the impact of shared gaze versus shared voice in collaborative settings, enabling real-time gaze sharing and multi-user experiments through Firebase that achieved 99% cross-trial consistency and 40% improved data storage accuracy.',
+        'Engineered a 144-trial visual search app using Express/Node.js and Socket.io with Tobii eye-tracking for real-time gaze sharing across groups of 1-6. Maintained 99% cross-trial consistency and improved data storage accuracy by 40% via Firebase.',
   }, 
   {
     imgUrl: '/Snapchat.png',
-    title: 'Augmented Reality Extern @ Snap Inc',
-    date: 'Mar 2024 - Apr 2024',
+    title: 'Augmented Reality Development Extern @ Snap Inc.',
+    date: 'Mar 2024 – Apr 2024',
     location: 'Remote',
     subtitle:
-    "Developed personalized AR experiences revolving around increasing NCAA March Madness engagement using Snap's Lens Studio. Mastered digital storytelling & AR design principles for creating engaging content to cater to millions of Snapchat users."
+    "Built personalized AR experiences for Gatorade using Snap's Lens Studio with hand tracking and object detection via JavaScript and Python CNNs, boosting user engagement by 20% and reaching over 5 million users."
     
   },
   {
     imgUrl: '/fooclub.jpg',
-    title: 'Backend Developer Intern @ Foodclub',
-    date: 'Jan 2024 - May 2024',
+    title: 'Backend Engineer Intern @ FoodX',
+    date: 'Jan 2024 – May 2024',
     location: 'Remote',
     subtitle:
-    "Developed and maintained core RESTful APIs that powered the backend of the Priority Team's high-growth startup application. Leveraged Node.js, Express, and SQL to build scalable and reliable APIs that delivered low-latency responses to support seamless user experiences across web and mobile clients. Collaborated cross-functionally in an agile, fast-paced startup environment composed of multiple scrum teams working in unison to rapidly deliver features towards startup."
+    "Built and expanded REST APIs using Node.js, Express, AWS, and SQL. Refactored Postgres and DynamoDB queries increasing user capacity by 50%. Implemented Redis caching and rate limiting, cutting API response times by 25%."
   },
   {
     imgUrl: '/aspc.png',
@@ -116,5 +153,3 @@ export const insights = [
     ,
   },
 ];
-
-
